@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+@font-face {
+  font-family: 'Black Mango';
+  src: url('./fonts/BlackMango-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+@font-face {
+  font-family: 'Black Mango';
+  src: url('/fonts/BlackMango-Regular.woff2') format('woff2'),
+       url('/fonts/BlackMango-Regular.woff') format('woff'),
+       url('/fonts/BlackMango-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
