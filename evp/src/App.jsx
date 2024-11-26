@@ -1,40 +1,4 @@
-// import React from 'react'
 
-// import Desktop4 from './components/Desktop4'
-// import Desktop5 from './components/Desktop5'
-// import Desktop6 from './components/Desktop5'
-// import Desktop7 from './components/Desktop7'
-
-// import Desktop3 from './components/Desktop3'
-
-
-
-
-// const App = () => {
-//   return (
-//     <>
-
-//       <div>
-//         <Desktop3 />
-//          {/*builder sunday*/}
-//         {/* <Desktop4/> */}
-//          {/*incubation program */}
-//         {/* <Desktop5/> */}
-//         {/*EdTalk */} 
-//         {/* <Desktop6/> */}
-//         {/* <Desktop7/> */}
-//         {/*Founders Friday */}
-
-
-
-//       </div>
-
-//     </>
-
-//   )
-// }
-
-// export default App
 
 
 import React from 'react'
