@@ -5,6 +5,8 @@ import React from 'react'
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
+import Desktop1 from './components/Desktop1'
+
 import Desktop4 from './components/Desktop4'
 import Desktop5 from './components/Desktop5'
 import Desktop6 from './components/Desktop6'
@@ -30,6 +32,7 @@ const App = () => {
         <Route path="/desktop5" element={<Desktop5 />} />
         <Route path="/desktop6" element={<Desktop6 />} />
         <Route path="/desktop7" element={<Desktop7 />} />
+        <Route path="/desktop1" element={<Desktop1 />} />
         {/* Add more routes as needed */}
       </Routes>
       <Footer/>

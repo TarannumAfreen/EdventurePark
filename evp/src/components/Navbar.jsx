@@ -62,7 +62,7 @@ function Navbar({ currentPage }) {
               <Link to="/" onClick={toggleMenu}>Home</Link>
             </li>
             <li className={`text-lg ${currentPage === 'aboutus' ? 'text-[#169D53] font-bold' : 'text-black'}`}>
-              <Link to="/about" onClick={toggleMenu}>About Us</Link>
+              <Link to="/desktop1" onClick={toggleMenu}>About Us</Link>
             </li>
             <li className={`text-lg ${currentPage === 'portfolio' ? 'text-[#169D53] font-bold' : 'text-black'}`}>
               <Link to="/search-engine" onClick={toggleMenu}>Portfolio</Link>
@@ -87,7 +87,7 @@ function Navbar({ currentPage }) {
               <Link to="/">Home</Link>
             </li>
             <li className={`text-lg ${currentPage === 'aboutus' ? 'text-[#169D53] font-bold' : 'text-black'}`}>
-              <Link to="/about">About Us</Link>
+              <Link to="/desktop1">About Us</Link>
             </li>
             <li className={`text-lg ${currentPage === 'portfolio' ? 'text-[#169D53] font-bold' : 'text-black'}`}>
               <Link to="/search-engine">Portfolio</Link>
