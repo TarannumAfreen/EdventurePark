@@ -34,13 +34,13 @@ const Desktop3 = () => {
         <div className="w-full md:w-1/4 lg:w-1/3 mb-6 md:mb-0">
           <div className="pl-4 md:pl-6 lg:pl-8 pt-4 font-medium text-lg sm:text-xl">
             <div className="mb-4">
-              <Link to="/" className="text-black hover:text-green-400">Pre-Incubation Program</Link>
+              <Link to="/desktop3" className="text-black hover:text-green-400">Pre-Incubation Program</Link>
             </div>
             <div className="mb-4">
               <Link to="/desktop4" className="text-black hover:text-green-400">Incubation Program</Link>
             </div>
             <div className="mb-4">
-              <Link to="/#" className="text-black hover:text-green-400">Campus Leadership Program</Link>
+              <Link to="/Home" className="text-black hover:text-green-400">Campus Leadership Program</Link>
             </div>
             <div className="mb-4">
               <Link to="/#" className="text-black hover:text-green-400">Incubation Manager Fellowship</Link>
