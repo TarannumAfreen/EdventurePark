@@ -10,14 +10,13 @@ import EVPnewlogo2 from "../assets/images/Home/EVP new logo 2.png";
 function PosterGrid() {
   return (
     <div className="flex flex-col items-center bg-white w-full min-h-screen p-10">
-  
       <h1 className="text-6xl font-bold mb-16 tracking-wider text-center">
         STUDENT <span className="text-green-700">FOUNDERS</span>
       </h1>
 
-   
-      <div className="grid grid-cols-6 w-full max-w-screen-2xl">
-       
+      
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 w-full max-w-screen-2xl">
+        
         <div className="w-full h-40">
           <img
             src={gridphoto1}
@@ -57,6 +56,7 @@ function PosterGrid() {
         <div className="bg-green-700 w-full h-40"></div>
         <div className="bg-white w-full h-40"></div>
 
+        
         <div className="w-full h-40">
           <img
             src={gridphoto5}
@@ -76,7 +76,7 @@ function PosterGrid() {
         <div className="bg-white w-full h-40"></div>
         <div className="bg-green-700 w-full h-40"></div>
 
-      
+       
         <div className="bg-green-700 w-full h-40"></div>
         <div className="bg-white w-full h-40"></div>
         <div className="bg-green-700 w-full h-40"></div>
@@ -85,16 +85,10 @@ function PosterGrid() {
         <div className="bg-white w-full h-40"></div>
       </div>
 
-      
+     
       <div className="my-16">
-        <img
-          src={EVPnewlogo2}
-          alt="EdVenture Park Logo"
-          
-        />
+        <img src={EVPnewlogo2} alt="EdVenture Park Logo" />
       </div>
-
-      
       <div className="text-center">
         <p className="text-3xl font-medium">Giving India</p>
         <p className="text-5xl font-bold text-green-700">Its True</p>
@@ -108,3 +102,4 @@ function PosterGrid() {
 }
 
 export default PosterGrid;
+

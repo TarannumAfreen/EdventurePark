@@ -29,29 +29,37 @@ function Home() {
       </center>
       <PosterGrid />
       <div className="bg-emerald-600 p-4 mb-4">
-        <div className="flex flex-col md:flex-row items-center">
-          <div className="w-full md:w-1/2 text-white">
-            <p className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4">
-              450+
-            </p>
-            <p
-              className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4"
-              style={{ color: "black" }}
-            >
-              Student entrepreneurs
-            </p>
-            <p className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4">
-              9 Million
-            </p>
-            <p
-              className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4"
-              style={{ color: "black" }}
-            >
-              Investment Raised
-            </p>
-          </div>
-        </div>
+      <div className="bg-emerald-600 p-4 mb-4">
+  <div className="flex flex-col md:flex-row items-start">
+   
+    <div className="w-full md:w-1/2 text-white">
+      <div className="mb-8">
+        <p className="text-5xl md:text-6xl lg:text-7xl font-bold mb-2">
+          450+
+        </p>
+        <p
+          className="text-3xl md:text-4xl lg:text-5xl font-bold"
+          style={{ color: "black" }}
+        >
+          Student Entrepreneurs
+        </p>
       </div>
+      <div>
+        <p className="text-5xl md:text-6xl lg:text-7xl font-bold mb-2">
+          9 Million
+        </p>
+        <p
+          className="text-3xl md:text-4xl lg:text-5xl font-bold"
+          style={{ color: "black" }}
+        >
+          Investment Raised
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
       <div className="flex flex-col md:flex-row bg-white p-8 items-center justify-center">
         <div className="relative w-full md:w-1/2 flex flex-col bg-black rounded-md overflow-hidden">
           <img
@@ -98,24 +106,24 @@ function Home() {
       <Groupcollage />
       <center>
         <p className="text-8xl font-semibold">How to apply</p>
-      </center>
-      <div className="flex justify-center items-center gap-12 mt-20">
-        <div className="w-80 h-64 flex flex-col justify-center items-center border-4 border-black rounded-lg bg-emerald-600 p-4 rounded-lg mb-4">
-          <strong className="text-4xl">Step 1</strong>
-          <p className="text-2xl text-center mt-2">Fill online application</p>
-        </div>
+      
+        <div className="flex flex-wrap justify-center items-center gap-12 mt-20">
+  <div className="w-80 h-64 flex flex-col justify-center items-center border-4 border-black rounded-lg bg-emerald-600 p-4 mb-4">
+    <strong className="text-4xl">Step 1</strong>
+    <p className="text-2xl text-center mt-2">Fill online application</p>
+  </div>
 
-        <div className="w-80 h-64 flex flex-col justify-center items-center border-4 border-black rounded-lg bg-white text-black">
-          <strong className="text-4xl">Step 2</strong>
-          <p className="text-2xl text-center mt-2">Interview rounds</p>
-        </div>
+  <div className="w-80 h-64 flex flex-col justify-center items-center border-4 border-black rounded-lg bg-white text-black">
+    <strong className="text-4xl">Step 2</strong>
+    <p className="text-2xl text-center mt-2">Interview rounds</p>
+  </div>
 
-        <div className="w-80 h-64 flex flex-col justify-center items-center border-4 border-black rounded-lg bg-emerald-600 p-4 rounded-lg mb-4">
-          <strong className="text-4xl">Step 3</strong>
-          <p className="text-2xl text-center mt-2">Selection</p>
-        </div>
-      </div>
-      <center>
+  <div className="w-80 h-64 flex flex-col justify-center items-center border-4 border-black rounded-lg bg-emerald-600 p-4 mb-4">
+    <strong className="text-4xl">Step 3</strong>
+    <p className="text-2xl text-center mt-2">Selection</p>
+  </div>
+</div>
+    
         <img
           src={rocket}
           alt="Rocket"
@@ -123,86 +131,76 @@ function Home() {
         />
         <p className="text-8xl font-semibold">What to expect</p>
       </center>
-      <div className="flex justify-center items-center gap-12 mt-20">
-        <div className="w-80 h-64 flex flex-col justify-center items-center border-4 border-black rounded-lg bg-emerald-600 p-4 rounded-lg mb-4">
-          <strong className="text-2xl" style={{ color: "black" }}>
-            1:1 sessions
-          </strong>
-          <p className="text-xl text-center mt-2">
-            Through a series of 8 tasks and interactions with the mentors from
-            the ecosystem
-          </p>
-        </div>
+      <div className="flex flex-col md:flex-row justify-center items-center gap-12 mt-20">
+  <div className="w-80 h-64 flex flex-col justify-center items-center border-4 border-black rounded-lg bg-emerald-600 p-4 mb-4">
+    <strong className="text-2xl" style={{ color: "black" }}>
+      1:1 sessions
+    </strong>
+    <p className="text-xl text-center mt-2">
+      Through a series of 8 tasks and interactions with the mentors from the ecosystem
+    </p>
+  </div>
 
-        <div className="w-80 h-64 flex flex-col justify-center items-center border-4 border-black rounded-lg bg-white text-black">
-          <strong className="text-2xl">Cohort sessions</strong>
-          <p className="text-xl text-center mt-2">
-            Through a series of 8 tasks and interactions with the mentors from
-            the ecosystem
-          </p>
-        </div>
+  <div className="w-80 h-64 flex flex-col justify-center items-center border-4 border-black rounded-lg bg-white text-black mb-4">
+    <strong className="text-2xl">Cohort sessions</strong>
+    <p className="text-xl text-center mt-2">
+      Through a series of 8 tasks and interactions with the mentors from the ecosystem
+    </p>
+  </div>
 
-        <div className="w-80 h-64 flex flex-col justify-center items-center border-4 border-black rounded-lg bg-emerald-600 p-4 rounded-lg mb-4">
-          <strong className="text-2xl" style={{ color: "black" }}>
-            Buddy support{" "}
-          </strong>
-          <p className="text-xl text-center mt-2">
-            Through a series of 8 tasks and interactions with the mentors from
-            the ecosystem
-          </p>
-        </div>
-      </div>
-      <div className="flex justify-center items-center gap-12 mt-20">
-        <div className="w-80 h-64 flex flex-col justify-center items-center border-4 border-black rounded-lg bg-emerald-600 p-4 rounded-lg mb-4">
-          <strong className="text-2xl" style={{ color: "black" }}>
-            Investor pitches
-          </strong>
-          <p className="text-xl text-center mt-2">
-            Through a series of 8 tasks and interactions with the mentors from
-            the ecosystem
-          </p>
-        </div>
+  <div className="w-80 h-64 flex flex-col justify-center items-center border-4 border-black rounded-lg bg-emerald-600 p-4 mb-4">
+    <strong className="text-2xl" style={{ color: "black" }}>
+      Buddy support
+    </strong>
+    <p className="text-xl text-center mt-2">
+      Through a series of 8 tasks and interactions with the mentors from the ecosystem
+    </p>
+  </div>
+</div>
 
-        <div className="w-80 h-64 flex flex-col justify-center items-center border-4 border-black rounded-lg bg-white text-black">
-          <strong className="text-2xl">Market access</strong>
-          <p className="text-xl text-center mt-2">
-            Through a series of 8 tasks and interactions with the mentors from
-            the ecosystem
-          </p>
-        </div>
+<div className="flex flex-col md:flex-row justify-center items-center gap-12 mt-20">
+  <div className="w-80 h-64 flex flex-col justify-center items-center border-4 border-black rounded-lg bg-emerald-600 p-4 mb-4">
+    <strong className="text-2xl" style={{ color: "black" }}>
+      Investor pitches
+    </strong>
+    <p className="text-xl text-center mt-2">
+      Through a series of 8 tasks and interactions with the mentors from the ecosystem
+    </p>
+  </div>
 
-        <div className="w-80 h-64 flex flex-col justify-center items-center border-4 border-black rounded-lg bg-emerald-600 p-4 rounded-lg mb-4">
-          <strong className="text-2xl" style={{ color: "black" }}>
-            Exclusive workshops{" "}
-          </strong>
-          <p className="text-xl text-center mt-2">
-            Through a series of 8 tasks and interactions with the mentors from
-            the ecosystem
-          </p>
-        </div>
-      </div>
-      <center>
-        <div className="w-full max-w-7xl mx-auto px-4 py-8">
-          <h1 className="text-[clamp(2rem,8vw,8rem)] font-black tracking-tighter leading-none text-neutral-900 uppercase">
-            turn your ideas
-          </h1>
-        </div>
-      </center>
-      <p
-        className="text-3xl md:text-4xl lg:text-5xl  mb-4"
-        style={{ color: "black" }}
-      >
-        Our <strong>Partners</strong>
-      </p>
-      <div className="flex space-x-4">
-        <img src={google} alt="Rocket" className="w-80 h-auto" />
-        <img src={thub} alt="Rocket" className="w-80 h-auto" />
-        <img src={wehub} alt="Rocket" className="w-80 h-auto" />
-        <img src={cfi} alt="Rocket" className="w-80 h-auto" />
-      </div>
-      <br /> <br />
-      <br />
-      <br />
+  <div className="w-80 h-64 flex flex-col justify-center items-center border-4 border-black rounded-lg bg-white text-black mb-4">
+    <strong className="text-2xl">Market access</strong>
+    <p className="text-xl text-center mt-2">
+      Through a series of 8 tasks and interactions with the mentors from the ecosystem
+    </p>
+  </div>
+
+  <div className="w-80 h-64 flex flex-col justify-center items-center border-4 border-black rounded-lg bg-emerald-600 p-4 mb-4">
+    <strong className="text-2xl" style={{ color: "black" }}>
+      Exclusive workshops
+    </strong>
+    <p className="text-xl text-center mt-2">
+      Through a series of 8 tasks and interactions with the mentors from the ecosystem
+    </p>
+  </div>
+</div>
+
+<div className="w-full max-w-7xl mx-auto px-4 py-8">
+  <h1 className="text-[clamp(2rem,8vw,8rem)] font-black tracking-tighter leading-none text-neutral-900 uppercase text-center">
+    turn your ideas
+  </h1>
+</div>
+<p className="text-3xl md:text-4xl lg:text-5xl mb-4" style={{ color: "black" }}>
+  Our <strong>Partners</strong>
+</p>
+
+<div className="flex flex-wrap justify-start gap-4">
+  <img src={google} alt="Google" className="w-40 h-auto md:w-60 lg:w-80" />
+  <img src={thub} alt="Thub" className="w-40 h-auto md:w-60 lg:w-80" />
+  <img src={wehub} alt="Wehub" className="w-40 h-auto md:w-60 lg:w-80" />
+  <img src={cfi} alt="CFI" className="w-40 h-auto md:w-60 lg:w-80" />
+</div>
+<br /><br /><br />
       <p className="text-5xl">
         Our Startups are making <strong>headlines</strong>{" "}
       </p>

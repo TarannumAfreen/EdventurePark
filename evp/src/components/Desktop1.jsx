@@ -1,5 +1,8 @@
 import React from "react";
-
+import meraj from "../assets/images/desktop1/meraj.png"
+import xTeam from "../assets/images/desktop1/executive team.png"
+import cl from "../assets/images/desktop1/bottomlast.png"
+import coreteam from "../assets/images/desktop1/core team.png"
 const Desktop1 = () => {
   return (
     <div className="bg-white p-0 w-full overflow-x-hidden">
@@ -40,7 +43,7 @@ const Desktop1 = () => {
             <div className="flex flex-col md:flex-row items-center">
               <div className="w-full md:w-1/2 mb-4 md:mb-0 md:mr-4">
                 <img
-                  src="/placeholder.svg"
+                  src={meraj}
                   alt="CEO Portrait"
                   className="w-full h-[450px] object-cover rounded-lg"
                 />
@@ -150,11 +153,14 @@ const Desktop1 = () => {
             they take charge of running the operations, funding initiatives, and
             executing our pre-incubation program.
           </p>
-          <img
-            src="https://via.placeholder.com/500x450.png?text=CEO+Image+Placeholder"
-            alt="Core Team"
-            className="w-[300px] md:w-[500px] h-[450px] object-cover rounded-lg mb-4"
-          />
+          <br />
+          <div className="flex justify-center items-center">
+  <img
+    src={coreteam}
+    alt="Core Team"
+    className="w-[90%] max-w-[1200px] h-auto object-cover rounded-lg mb-4"
+  />
+</div>
         </div>
 
         <div className="mx-4 md:mx-10 lg:mx-20 mb-8">
@@ -169,16 +175,19 @@ const Desktop1 = () => {
             alongside students founders to help them transform their ideas into
             thriving startups.
           </p>
-          <img
+          <br />
+          <div className="flex justify-center items-center">
+  <img
+    src={xTeam}
+    alt="Core Team"
+    className="w-[90%] max-w-[1200px] h-auto object-cover rounded-lg mb-4"
+  />
+</div>
+          {/* <img
             src="https://via.placeholder.com/500x450.png?text=CEO+Image+Placeholder"
             alt="Core Team"
             className="w-[300px] md:w-[500px] h-[450px] object-cover rounded-lg mb-4"
-          />
-          <img
-            src="https://via.placeholder.com/500x450.png?text=CEO+Image+Placeholder"
-            alt="Core Team"
-            className="w-[300px] md:w-[500px] h-[450px] object-cover rounded-lg mb-4"
-          />
+          /> */}
         </div>
 
         <div className="mx-4 md:mx-10 lg:mx-20 mb-8">
@@ -191,12 +200,15 @@ const Desktop1 = () => {
             exclusive access to the abundant resources offered by EdVenture
             Park, creating opportunitiesfor them to experiment, learn, and
             thrive.
-          </p>
-          <img
-            src="https://via.placeholder.com/500x450.png?text=CEO+Image+Placeholder"
-            alt="Core Team"
-            className="w-[300px] md:w-[500px] h-[450px] object-cover rounded-lg mb-4"
-          />
+            
+          </p><br />
+          <div className="flex justify-center items-center">
+  <img
+    src={cl}
+    alt="Core Team"
+    className="w-[90%] max-w-[1200px] h-auto object-cover rounded-lg mb-4"
+  />
+</div>
         </div>
 
         <div className="bg-emerald-600 flex flex-col items-center py-24 w-full">
